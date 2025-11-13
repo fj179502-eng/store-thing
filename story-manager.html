@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Story Manager</title>
+    <link rel="stylesheet" href="css/story-manager-style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h2>Story Manager</h2>
+            <p>Organize your writing projects and track your progress</p>
+        </header>
+
+        <section class="stat">
+            <div class="stat-grid">
+                <div class="stat-card">
+                    <span class="stat-number">3</span>
+                    <span class="stat-label">Active Projects</span>
+                </div><!--stat card-->
+                <div class="stat-card">
+                    <span class="stat-number">24857</span>
+                    <span class="stat-label">Total Words</span>
+                </div><!--stat card-->
+                <div class="stat-card">
+                    <span class="stat-number">12</span>
+                    <span class="stat-label">Chapters</span>
+                </div><!--stat card-->
+                <div class="stat-card">
+                    <span class="stat-number">85%</span>
+                    <span class="stat-label">Completion</span>
+                </div><!--stat card-->
+            </div><!--stat-grid-->
+        </section>
+
+        <section #="sidebar">
+            <div class="dashboard">
+                <div class="sidebar">
+                    <h3>Qick Action</h3>
+                    <button class="btn">New Story</button>
+                    <button class="btn-secondary">Add Chapter</button>
+                    <button class="btn-secondary">Manage Chaaracters</button>
+                    <button class="btn-secondary">World Building</button>
+                    <h3>Recent Stories</h3>
+                    <div class="sidebar-info">
+                        <h3>the Shadadow Kingdom</h3>
+                        <p>Fantasy • 15,342 words</p>
+                        <div class="progress">
+                            <div class="progress-bar"></div>
+                        </div><!--progress-->
+                    </div><!--sidebar-info-->
+                    <div class="sidebar-info">
+                        <h3>Cosmic Drift</h3>
+                        <p>Sci-Fi • 8,245 words</p>
+                        <div class="progress">
+                            <div class="progress-bar1"></div>
+                        </div><!--progress-->
+                    </div><!--sidebar-info-->
+                    <div class="sidebar-info">
+                        <h3>Echoes of Yesterday</h3>
+                        <p>Mystery • 1,000 words</p>
+                        <div class="progress">
+                            <div class="progress-bar2"></div>
+                        </div><!--progress-->
+                    </div><!--sidebar-info-->
+                </div><!--sidebar-->
+
+                <div class="main-content">
+                    <div class="main-card">
+                        <h3>Current Chapter</h3>
+                        <input type="text" name="chapter1" id="chapter1"  value="Chapter 7: The Dark Forest">
+                        <textarea name="write" id="write">The trees loomed overhead, their branches weaving a canopy so thick that only slivers of moonlight pierced through. Elara moved silently, her breath forming small clouds in the chill air. Every rustle of leaves set her heart racing...</textarea>
+                        <button class="btn1">Save Chapter</button>
+                    </div><!--main card-->
+                    <div class="main-card">
+                        <h3>Character Notes</h3>
+                        <input type="text" name="Elara1" id="Elara1"  value="Elara Windrunner">
+                        <textarea name="age" id="age">Age: 23 | Role: Protagonist Skills: Archery, Stealth, Herbalism Background: Orphaned, raised by the forest rangers. Has a mysterious connection to the ancient magic of the woods.</textarea>
+                        <button class="btn1">Update Chapter</button>
+                    </div><!--main card-->
+                </div><!--main-content-->
+
+                 <div class="main-content">
+                    <div class="main-card">
+                        <h3>Plot Outline</h3>
+                       <textarea name="discovers" id="discover">1. Elara discovers the ancient ruins
+                        2. Meets the mysterious stranger
+                        3. Learns about the shadow prophecy
+                        4. Journey to the mountain temple
+                        5. Final confrontation with the shadow king</textarea>
+                        <button class="btn1">Update Outline</button>
+                    </div><!--main card-->
+                    <div class="main-card">
+                        <h3>World Building</h3>
+                        <input type="text" name="shadow1" id="shadow1"  value="The Shadow Kingdom">
+                        <textarea name="parallel" id="parallel">A parallel dimension where shadows gain substance. Ruled by a king who can manipulate darkness. Time flows differently here - one day equals one week in the real world.</textarea>
+                        <button class="btn1">Save Notes</button>
+                    </div><!--main card-->
+                </div><!--main-content-->
+
+            </div><!--dashboard-->
+        </section>
+    </div><!--container--> 
+
+    <footer>
+        <p>© 2023 Betafy. All rights reserved. |Sell for early things.</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Store Things</title>
+    <link rel="stylesheet" href="css/store-style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="image/thing.png" alt="">
+            <h2>Store Things</h2>
+        </div><!--logo-->
+        <div class="menu-toggle">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div><!--menu-toggle-->
+        <nav class="nav-links">
+            <ul class="navigation">
+                <li><a href="#Home">Home</a></li>
+                <li><a href="#Shop">Shop</a></li>
+                <li><a href="#Category">Categories</a></li>
+                <li><a href="#Contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="home" id="Home">
+        <div class="home-content">
+            <h2>Discover the Best Deals!</h2>
+            <p>Shop trending products at unbeatable prices.</p>
+            <a href="#" class="btn">Shop Now</a>
+        </div><!--home content-->
+    </section>
+
+    <section class="shop" id="Shop">
+        <h2 class="title">Featured Products</h2>
+     <div class="shop-grid">
+        <div class="shop-card">
+            <div class="shop-image">
+                <img src="image/watch.jfif" alt="product1">
+            </div><!--shop image-->
+            <div class="shop-info">
+                <h2>Smart Watch</h2>
+                <p>$59.99</p>
+                <a href="#" class="btn1">Add to Cart</a>
+            </div><!--shop info-->
+        </div><!--shop card-->
+
+        <div class="shop-card">
+            <div class="shop-image">
+                <img src="image/head.jfif" alt="product2">
+            </div><!--shop image-->
+            <div class="shop-info">
+                <h2>Wireless Headphones</h2>
+                <p>$79.99</p>
+                <a href="#" class="btn1">Add to Cart</a>
+            </div><!--shop info-->
+        </div><!--shop card-->
+
+        <div class="shop-card">
+            <div class="shop-image">
+                <img src="image/bag.png" alt="product3">
+            </div><!--shop image-->
+            <div class="shop-info">
+                <h2>Backpack</h2>
+                <p>$39.99</p>
+                <a href="#" class="btn1">Add to Cart</a>
+            </div><!--shop info-->
+        </div><!--shop card-->
+
+         <div class="shop-card">
+            <div class="shop-image">
+                <img src="image/mouse.png" alt="product4">
+            </div><!--shop image-->
+            <div class="shop-info">
+                <h2>Gaming Mouse</h2>
+                <p>$29.99</p>
+                <a href="#" class="btn1">Add to Cart</a>
+            </div><!--shop info-->
+        </div><!--shop card-->
+
+     </div><!--shop grid-->
+    </section>
+
+    <section class="category" id="Category">
+        <h2 class="title">Shop By Category</h2>
+        <div class="category-grid">
+            <div class="category-card">
+                <div class="category-info">
+                    <h2>Electronics</h2>
+                </div><!--category info-->
+            </div><!--category card-->
+            <div class="category-card">
+                <div class="category-info">
+                    <h2>Fashion</h2>
+                </div><!--category info-->
+            </div><!--category card-->
+            <div class="category-card">
+                <div class="category-info">
+                    <h2>Accessories</h2>
+                </div><!--category info-->
+            </div><!--category card-->
+            <div class="category-card">
+                <div class="category-info">
+                    <h2>Home & Living</h2>
+                </div><!--category info-->
+            </div><!--category card-->
+        </div><!--category grid-->
+    </section>
+
+    <section class="contact" id="Contact">
+        <h2 class="title">Contact US</h2>
+        <div class="contact-form">
+            <form action="#">
+                <div class="form-group">
+                    <input type="text" name="name1" id="name1" placeholder="Your Name">
+                </div><!--form group-->
+                <div class="form-group">
+                    <input type="email" name="email1" id="email1" placeholder="Your Email">
+                </div><!--form group-->
+                <div class="form-group">
+                    <textarea name="message" id="message" placeholder="Your Message"></textarea>
+                </div><!--form group-->
+                <div class="form-group">
+                    <input type="submit" name="btn" value="Send Message" class="btn1">
+                </div><!--form group-->
+            </form>
+        </div><!--content form--->
+    </section>
+    <footer>
+        <p>© 2025 StoreThings | Designed by Faisal</p>
+    </footer>
+<script>
+document.querySelector(".menu-toggle").addEventListener("click", function() {
+    document.querySelector(".navigation").classList.toggle("active");
+});
+</script>
+    
+</body>
+</html>
